@@ -4,5 +4,5 @@ Simple nft uploader for ClebusX.
 Used for 'certified nft business' of Hanseong Motor Co.
 
 * Create image
-* Upload NFTㄴ at ClebusX
+* Upload NFTs at ClebusX
 * Send NFTs at ClebusX
