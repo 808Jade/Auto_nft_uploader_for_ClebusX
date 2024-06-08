@@ -32,7 +32,7 @@ async def run(playwright: Playwright) -> None:
         await page.get_by_label("아이디필수").fill(f"sg{current_num + 1}a")
         #################################################################
         await page.get_by_label("비밀번호필수").click()
-        await page.get_by_label("비밀번호필수").fill("0000")
+        await page.get_by_label("비밀번호필수").fill(f"{idpass.member_pass}")
         await page.get_by_role("button", name="확인").click()
         await page.get_by_role("link", name="목록").click()
 
